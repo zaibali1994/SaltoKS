@@ -62,10 +62,10 @@ Generic functions will have generic functions related to automation like get cur
 
 
 
-7) After allowing, double click on the app. This will start the installation process. Once complete double click on the appium icon
+7) After allowing, double-click on the app. This will start the installation process. Once complete double-click on the appium icon
 
 
-8) Clone repo: https://bitbucket.org/venturedive/mobileautomationframework/src/master/
+8) Clone repo: https://github.com/zaibali1994/SaltoKS.git
 
     - On Bitbucket.com, navigate to the main page of the repository.
     - To clone your repository, click on the copy icon
@@ -114,4 +114,4 @@ Generic functions will have generic functions related to automation like get cur
 
 ########## Test APK #########
 
-SaltoKS APK has been added in the directory "APK". You dont need to change the app path for the APK.
+SaltoKS APK has been shared separately due size issue. You will have to place APK file in APK folder available in directory and don't need to change the app path for the APK.
