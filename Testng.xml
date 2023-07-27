@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Islamic Finder Test Suites-->
+<suite name="Regression Suite">
+
+    <test name = "Testing Flows">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                   <include name="verifyUserIsAbleToLoginSuccessfully"/>
+                    <include name="verifyUserIsAbleToSelectSiteAndNavigateHomeScreen"/>
+                </methods>
+            </class>
+            <class name="testcases.PeopleTest">
+                <methods>
+                    <include name="verifyUserIsableBlockAndUnblockPeople"/>
+                </methods>
+            </class>
+            <class name="testcases.LogOutTest">
+                <methods>
+                    <include name="verifyUserIsableToLogOutSuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
